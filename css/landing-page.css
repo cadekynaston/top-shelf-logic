@@ -19,19 +19,45 @@ h1 {
 
 }
 
-header.masthead {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/mountain.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+
+.container-1 {
+  background-color: white;
+  justify-content: center;
+  z-index: 5;
 }
 
-header.masthead .overlay {
+@media screen and (min-width: 750px) {
+
+  header {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+}
+
+
+header {
+  position: relative;
+
+  background-image: url("../img/mountain.jpg");
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-color: #343a40;
+  text-align: center;
+
+}
+
+
+
+header .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;
@@ -47,12 +73,16 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.showcase  {
+  background-color: white;
 }
 
 .showcase .showcase-text {
@@ -71,8 +101,8 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .features-icons .features-icons-item {
@@ -154,7 +184,15 @@ footer.footer {
   text-align: center;
 }
 
+video {
+  min-width: 100%;
+  min-height: 100%;
+}
 
-#video {
-  width: 100%;
+
+@media screen and (max-width: 1100px) {
+
+  video {
+    display: none;
+  }
 }
