@@ -1,7 +1,5 @@
 body {
-  /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Tajawal', sans-serif;
-
 }
 
 h1,
@@ -11,7 +9,6 @@ h4,
 h5,
 h6 {
   font-family: 'Tajawal', sans-serif;
-
 }
 
 h1 {
@@ -90,6 +87,7 @@ header.masthead h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 768px) {
@@ -119,19 +117,6 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
-.testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.testimonials .testimonial-item {
-  max-width: 18rem;
-}
-
-.testimonials .testimonial-item img {
-  max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
-}
 
 .call-to-action {
   position: relative;
