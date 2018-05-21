@@ -12,7 +12,11 @@ h6 {
 }
 
 h1 {
-  font-weight: 300
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .container-1 {
