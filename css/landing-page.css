@@ -196,3 +196,10 @@ video {
     display: none;
   }
 }
+
+
+.vertical-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
